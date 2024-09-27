@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Kanit";
+    word-spacing: 2px;
+}
+.top{
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+}
+p{
+    font-size: 25px;
+}
+body{  
+    backdrop-filter: blur(80px);
+    background-image:linear-gradient(to bottom,#7277f1,#ed71ad) ;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.userForm{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 600px;
+    height: 830px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 35px;
+    box-shadow: 0 0 10px;
+    color: #7277f1;
+}
+h2{ 
+    color: rgba(69, 62, 62, 0.897);
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    background-color: #ec6ead2f;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+}
+input[type="text"]:disabled{
+    background-color: #EC6EAD;
+}
+input:focus{
+    outline: none;
+}
+label{
+    color: rgba(69, 62, 62, 0.897);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #EC6EAD;
+    padding: 20px;
+    padding-bottom: 50px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background-color: #7277f1;
+}
+input .container.setSuccess{
+    visibility: hidden;
+}
+.error{
+    visibility: visible;
+    padding: 0;
+    margin: 0;
+    color: red;
+    margin-bottom: 20px;
+}
+
+#onSubmitted {
+    display: none;
+}
+
+#form-container {
+    display: block;
+}
